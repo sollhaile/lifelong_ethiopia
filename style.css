@@ -191,6 +191,9 @@ font-size: 15px;
 
 
 }
+.card img{
+align-items: center;
+}
 
 
 /*Mission*/
@@ -239,6 +242,25 @@ font-size: 15px;
   }
   
 }
+@media screen and (max-width:260px) {
+  #about{
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+  
+}
+@media screen and (max-width:320px) {
+  #about{
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+  
+}
+
 
 /* Contact Us*/
 
